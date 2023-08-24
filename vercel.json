@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/tg/(.*)",
+      "destination": "/api/tg.js"
+    },
+    {
+      "source": "/api/tg/(.*)",
+      "destination": "/api/tg.js"
+    }
+  ]
+}
